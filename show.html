@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #ffcc99;
+    }
+div{
+    float: left;
+    width: 22%;
+    height: 180px;
+    border: 2px solid;
+    margin: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #ee8114;
+    color: white;
+}
+#shownum{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 160px;
+}
+.inner{
+    background-color:#ff8000;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 0px solid;
+    border-radius: 8px 8px 0px 0px;
+  }
+#table_butn{
+        padding: 10px;
+        margin-top: 0px;
+        border: 2px solid rgb(48, 48, 167);
+        width: 6%;
+        color: rgb(45, 45, 133);
+        border-radius: 8px;
+        font-weight: bolder;
+    }
+h1{
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+</style>
+<body>
+
+    <p style="text-align:right"> <button id="table_butn" onclick="back()">Back</button></p>
+    <p id="shownum"></p><br>
+    <div><p class="inner">event.Key</p> <h1 id="div1"></h1></div>
+    <div><p class="inner">event.location <h1 id="div2"></h1></p></div>
+    <div><p class="inner">event.which <h1 id="div3"></h1></p></div>
+    <div><p class="inner">event.code <h1 id="div4"></h1></p></div>
+
+</body>
+<script src="show.js"></script>
+</html>
